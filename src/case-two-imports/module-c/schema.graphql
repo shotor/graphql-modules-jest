@@ -1,0 +1,7 @@
+type Query {
+  moduleCQuery: ModuleCResult!
+}
+
+type ModuleCResult {
+  mobuleCField: String @cacheControl(maxAge: 1000)
+}
